@@ -12,7 +12,7 @@ $client->putMetricData(array(
 	'Namespace' => 'Custom: Time Metrics',
 	'MetricData' => array(
 		array(
-			'MetricName' => 'Current Minute',
+			'MetricName' => 'Current Seconds',
 			'Value' => date('s'),
 			'Unit' => 'Seconds',
 		),
